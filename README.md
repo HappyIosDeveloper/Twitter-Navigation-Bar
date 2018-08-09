@@ -1,7 +1,7 @@
 # Twitter-Navigation-Bar
 Super cool navigation bar blur effect like Twitter!
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/UzumakiAlfredo/Twitter-Navigation-Bar/blob/master/preview.gif?raw=true)
 
 
 # Usage:

@@ -21,4 +21,4 @@ Your ViewController must embedded in a navigation bar(on storyboard), otherwise 
     let label = UILabel()
     label.text = "test"
     label.textColor = .white
-    setupTwitterNavigationBar(scrollView:scrollView, withCustomHeight: 200, image: "YOUR IMAGE", titleLabel: label)
+    setupTwitterNavigationBar(scrollView:scrollView, image: "YOUR IMAGE", titleLabel: label)

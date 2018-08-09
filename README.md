@@ -1,7 +1,10 @@
 # Twitter-Navigation-Bar
 Super cool navigation bar blur effect like Twitter!
 
-Usage:
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
+
+# Usage:
 
 1. Copy TwitterViewController.swift to your project.
 2. Insted of UIViewController, extend you class from TwitterViewController.
@@ -9,10 +12,11 @@ Usage:
 4. call setupTwitterNavigationBar function anywhere you desire & pass it your scrollView & image.
 5. If you need a title for your navigation bar, create a UILabel programmically & pass it to the setup function.
 
-Caution:
+# Caution:
 Your ViewController must embedded in a navigation bar(on storyboard), otherwise app will crash!
 
-Usage example: 
+
+# Usage example: 
 
     let label = UILabel()
     label.text = "test"

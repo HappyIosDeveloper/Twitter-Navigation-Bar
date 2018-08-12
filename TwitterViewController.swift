@@ -10,7 +10,7 @@ import UIKit
 
 class TwitterViewController: UIViewController, UIScrollViewDelegate {
     
-    var headerStopPoint:CGFloat = 84 // navigation bar smallest position height
+    var headerStopPoint:CGFloat = 86 // navigation bar smallest position height
     var headerBottomPoint:CGFloat = 95 // At this offset the Black label reaches the Header
     var titleBottomDistance:CGFloat = -10 // The distance between the bottom of the Header and the the White title Label
     var extraNavigationBarHeight:CGFloat = 0
@@ -60,7 +60,7 @@ class TwitterViewController: UIViewController, UIScrollViewDelegate {
         self.header.addSubview(headerLabel)
         if #available(iOS 11.0, *) {
             if UIApplication.shared.statusBarFrame.height > CGFloat(20) { // iphone X
-                headerStopPoint = 50
+                headerStopPoint = 52
                 headerBottomPoint = 95
                 titleBottomDistance = -20
                 extraNavigationBarHeight = -10
